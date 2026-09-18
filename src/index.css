@@ -28,3 +28,24 @@ body {
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
 }
+
+/* Tailwind v4 preflight sets buttons to `cursor: default` (native behaviour).
+   Restore a pointer cursor for every interactive control, and `not-allowed`
+   for the disabled ones. */
+@layer base {
+  a[href],
+  button:not(:disabled),
+  [role="button"]:not(:disabled),
+  [role="radio"]:not(:disabled),
+  [role="menuitemradio"]:not(:disabled),
+  select:not(:disabled),
+  label[for],
+  summary {
+    cursor: pointer;
+  }
+
+  button:disabled,
+  [aria-disabled="true"] {
+    cursor: not-allowed;
+  }
+}
