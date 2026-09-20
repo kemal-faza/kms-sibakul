@@ -64,7 +64,7 @@ export function RoleSwitcher() {
                 setRole(r);
                 setOpen(false);
               }}
-              className={`flex w-full items-center justify-between rounded-lg px-3 py-2 text-left text-[13px] ${
+              className={`flex w-full items-center justify-between rounded-lg px-3 py-2 text-left text-[13px] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand ${
                 r === role ? "bg-brand-tint font-bold text-brand" : "text-ink hover:bg-canvas"
               }`}
             >

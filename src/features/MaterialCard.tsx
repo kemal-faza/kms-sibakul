@@ -25,9 +25,10 @@ export function MaterialCard({ material }: { material: Material }) {
         </span>
         <Link
           to={`/repositori?kategori=${encodeURIComponent(material.category)}`}
+          aria-label={`Lihat materi terkait kategori ${material.category}`}
           className="text-[13px] font-bold text-brand hover:underline"
         >
-          Pelajari →
+          Lihat kategori →
         </Link>
       </div>
     </Card>

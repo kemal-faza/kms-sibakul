@@ -37,9 +37,10 @@ export function RekomendasiPage() {
                   </span>
                   <Link
                     to={`/repositori?kategori=${encodeURIComponent(m.category)}`}
+                    aria-label={`Lihat materi terkait kategori ${m.category}`}
                     className="text-[12.5px] font-bold text-brand hover:underline"
                   >
-                    Pelajari →
+                    Lihat kategori →
                   </Link>
                 </div>
               </Card>
