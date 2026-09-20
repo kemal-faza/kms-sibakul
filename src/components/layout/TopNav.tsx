@@ -26,7 +26,9 @@ export function TopNav() {
         <div className="flex items-center gap-3">
           <span aria-hidden="true" className="h-8 w-8 rounded-full border border-brand bg-brand-tint" />
           <span className="flex flex-col">
-            <span className="text-[15px] font-bold leading-tight text-ink">Pusat Pengetahuan</span>
+            <span className="text-[15px] font-bold leading-tight text-ink">
+              Knowledge Management System
+            </span>
             <span className="text-[11px] leading-tight text-muted">
               Pendukung Pembinaan SiBakul Jogja
             </span>

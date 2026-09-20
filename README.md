@@ -1,4 +1,4 @@
-# Pusat Pengetahuan — KMS SiBakul Jogja
+# Knowledge Management System — SiBakul Jogja
 
 Prototipe front-end untuk Knowledge Management System pendukung pembinaan UMKM
 SiBakul Jogja. Mengimplementasikan empat frame dari mockup Figma "Mockup KMS SiBakul Jogja".
